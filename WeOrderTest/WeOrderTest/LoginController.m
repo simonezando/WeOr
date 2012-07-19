@@ -109,8 +109,8 @@
      user = [[WOUser alloc] initWithDelegate:self];
     //                              
     @try {
-    //    [user login:[(UITextField*)[self.view viewWithTag:1] text]   withPassword:[(UITextField*)[self.view viewWithTag:2] text] facebook:NO];
-        [user login:@"simone@gmail.com"   withPassword:@"123456" facebook:NO];
+        [user login:[(UITextField*)[self.view viewWithTag:1] text]   withPassword:[(UITextField*)[self.view viewWithTag:2] text] facebook:NO];
+    //    [user login:@"simone@gmail.com"   withPassword:@"123456" facebook:NO];
         
     }
     @catch (NSException *exception) {
